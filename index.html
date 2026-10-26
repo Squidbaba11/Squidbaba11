@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basile JOSSAUME – Portfolio</title>
+  <meta name="description" content="Portfolio de Basile JOSSAUME, étudiant développeur au CESI.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="#accueil" class="logo">Basile J<span>.</span></a>
+    <nav>
+      <a href="#apropos">À propos</a>
+      <a href="#projets">Projets</a>
+      <a href="#competences">Compétences</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <p class="eyebrow">Bonjour, je suis</p>
+      <h1>Basile JOSSAUME</h1>
+      <p class="lead">Étudiant développeur au CESI, passionné par le C# et la création d'applications.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projets">Voir mes projets</a>
+        <a class="btn" href="#contact">Me contacter</a>
+      </div>
+    </section>
+
+    <section id="apropos" class="reveal">
+      <h2>À propos</h2>
+      <p>
+        Je suis étudiant au CESI et je me forme au développement logiciel. J'aime construire
+        des projets concrets pour progresser : jeux, outils, applications. {{ À personnaliser :
+        ton parcours, ce que tu recherches (stage, alternance), tes centres d'intérêt. }}
+      </p>
+    </section>
+
+    <section id="projets" class="reveal">
+      <h2>Projets</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Pendu</h3>
+          <p>Jeu du pendu développé dans le cadre de ma formation.</p>
+          <ul class="tags"><li>C#</li><li>.NET</li></ul>
+          <a href="https://github.com/Squidbaba11/Pendu" target="_blank" rel="noopener">Voir sur GitHub →</a>
+        </article>
+        <article class="card">
+          <h3>Todo App</h3>
+          <p>Application de gestion de tâches.</p>
+          <ul class="tags"><li>C#</li><li>.NET</li></ul>
+          <a href="https://github.com/Squidbaba11/Todo_Repo" target="_blank" rel="noopener">Voir sur GitHub →</a>
+        </article>
+        <article class="card">
+          <h3>Nouveau projet</h3>
+          <p>Décris ici un autre projet : le but, ce que tu as appris.</p>
+          <ul class="tags"><li>Techno</li></ul>
+          <a href="#">Lien →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="competences" class="reveal">
+      <h2>Compétences</h2>
+      <ul class="skills">
+        <li>C#</li><li>.NET</li><li>Git &amp; GitHub</li><li>HTML / CSS</li><li>JavaScript</li><li>SQL</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="reveal">
+      <h2>Contact</h2>
+      <p>Une opportunité, une question ? Écris-moi.</p>
+      <div class="actions">
+        <a class="btn primary" href="mailto:jossaumebasile@gmail.com">Envoyer un email</a>
+        <a class="btn" href="https://github.com/Squidbaba11" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/TON-PROFIL" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Basile JOSSAUME – Fait avec HTML, CSS et JS.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
